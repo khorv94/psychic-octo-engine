@@ -9,6 +9,7 @@
     "dev:hugo": "hugo server"
   },
   "dependencies": {
-    "alpinejs": "^3.14.8"
+    "alpinejs": "^3.14.8",
+    "wrangler": "^3.112.0"
   }
 }
