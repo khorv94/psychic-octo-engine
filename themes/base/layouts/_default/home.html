@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div x-data="{ open: false }">
+  <button @click="open = true">Test Alpine Button</button>
+  <span x-show="open">
+    {{ .Content }}
+  </span>
+</div> 
+  {{ range site.RegularPages }}
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    {{ .Summary }}
+  {{ end }}
+{{ end }}

@@ -1,0 +1,33 @@
+{
+  "htmlElements": {
+    "tags": [
+      "a",
+      "body",
+      "button",
+      "div",
+      "footer",
+      "h1",
+      "h2",
+      "head",
+      "header",
+      "html",
+      "img",
+      "li",
+      "main",
+      "meta",
+      "nav",
+      "p",
+      "script",
+      "span",
+      "time",
+      "title",
+      "ul"
+    ],
+    "classes": [
+      "active",
+      "ancestor",
+      "text-green-500"
+    ],
+    "ids": null
+  }
+}
